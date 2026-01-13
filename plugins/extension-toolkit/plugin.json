@@ -1,0 +1,18 @@
+{
+  "name": "extension-toolkit",
+  "description": "Toolkit for building Claude Code extensions: skills, agents, commands, hooks, and plugins",
+  "version": "1.0.0",
+  "author": {
+    "name": "k9zt4qv3p6r1m8x"
+  },
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "skills",
+    "agents",
+    "commands",
+    "hooks",
+    "mcp",
+    "plugins"
+  ]
+}

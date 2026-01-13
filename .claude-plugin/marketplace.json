@@ -1,0 +1,18 @@
+{
+  "name": "claude-code-builder",
+  "version": "1.0.0",
+  "description": "Expert reference for extending Claude Code with custom components: skills, agents, commands, hooks, MCP servers, and plugins",
+  "owner": {
+    "name": "k9zt4qv3p6r1m8x",
+    "email": "k9zt4qv3p6r1m8x@proton.me"
+  },
+  "plugins": [
+    {
+      "name": "extension-toolkit",
+      "description": "Toolkit for building Claude Code extensions: skills, agents, commands, hooks, and plugins",
+      "version": "1.0.0",
+      "source": "./plugins/extension-toolkit",
+      "category": "development"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+name: Suggestion
+description: Suggest an improvement to an existing plugin
+title: "[SUGGESTION] "
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: plugin
+    attributes:
+      label: Plugin
+      options:
+        - extension-toolkit
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What would you like to improve?
+    validations:
+      required: true
+  - type: textarea
+    id: usecase
+    attributes:
+      label: Use Case
+      description: Why is this improvement useful?
+    validations:
+      required: false
